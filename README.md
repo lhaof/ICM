@@ -1,5 +1,15 @@
 # Intensity Confusion Matters: An Intensity-Distance Guided Loss for Bronchus Segmentation
 
+**Haifan Gong<sup>1,4,*</sup>, Wenhao Huang<sup>2,*</sup>, Huan Zhang<sup>2</sup>, Yu Wang<sup>2</sup>, Xiang Wan<sup>1</sup>, Hong Shen<sup>2,†</sup>, Guanbin Li<sup>3,†</sup>, Haofeng Li<sup>1,†</sup>**
+
+<sup>1</sup> Shenzhen Research Institute of Big Data, China  
+<sup>2</sup> InferVision, China  
+<sup>3</sup> School of Computer Science and Engineering, Sun Yat-sen University, China  
+<sup>4</sup> School of Science and Engineering, The Chinese University of Hong Kong (Shenzhen), China  
+
+\* Haifan Gong and Wenhao Huang contribute equally to this work.  
+† Hong Shen, Guanbin Li, and Haofeng Li are the corresponding authors.
+
 ## Introduction
 Bronchus segmentation from computed tomography (CT) imaging plays a crucial role in structural analysis for disease diagnosis. Existing methods have primarily focused on enhancing segmentation accuracy but often overlook the issue of "Intensity Confusion." This phenomenon occurs when the intensity values of bronchus regions (foreground) closely resemble those of the surrounding tissues (background), posing significant challenges for segmentation models. To address this, we introduce a novel Intensity-Distance Guided loss function that dynamically adjusts weights to prioritize hard samples based on their intensity proximity and spatial distance to the bronchus.
 
