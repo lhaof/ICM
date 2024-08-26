@@ -14,7 +14,7 @@ Our approach demonstrates superior performance over existing state-of-the-art me
 ![Results](img/results.jpg)
 
 ## Dataset Description
-You may directly download this dataset from [OSF](https://osf.io/pskr9/?viewonly=94fa3d87274b4095ac9a4b88cc9a1341.). For the development of automatic bronchus diagnosis, we contribute a new benchmark, BronAtlas, for bronchus classification. BronAtlas has 100 cases of lung CT imaging with voxel-level annotations of 20 segmental bronchi categories (i.e., 10 from the right lung, 8 from the left lung, 1 for the main trachea, and 1 for abnormal bronchus). The "abnormal bronchus segment" denotes the congenital abnormal bronchus. There are 33 abnormal cases in the training and validation set and 12 abnormal cases in the test set. The visualization of the 20 bronchial categories is in the following table.
+You may directly download this dataset from [OSF](https://osf.io/pskr9/?viewonly=94fa3d87274b4095ac9a4b88cc9a1341.). For the development of automatic bronchus diagnosis, we contribute a new benchmark, BronAtlas, for bronchus classification. BronAtlas has 100 cases of lung CT imaging with voxel-level annotations of 20 segmental bronchi categories (i.e., 10 from the right lung, 8 from the left lung, 1 for the main trachea, and 1 for abnormal bronchus). The "abnormal bronchus segment" denotes the congenital abnormal bronchus. There are 33 abnormal cases in the training and validation set and 12 abnormal cases in the test set. The visualization of the 20 bronchial categories is shown below.
 
 ![Dataset](img/dataset.jpg)
 
