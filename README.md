@@ -1,6 +1,6 @@
 # Intensity Confusion Matters: An Intensity-Distance Guided Loss for Bronchus Segmentation
 
-**Haifan Gong<sup>1,4,*</sup>, Wenhao Huang<sup>2,*</sup>, Huan Zhang<sup>2</sup>, Yu Wang<sup>2</sup>, Xiang Wan<sup>1</sup>, Hong Shen<sup>2,†</sup>, Guanbin Li<sup>3,†</sup>, Haofeng Li<sup>1,†</sup>**
+**Haifan Gong<sup>1,4,\*</sup>, Wenhao Huang<sup>2,\*</sup>, Huan Zhang<sup>2</sup>, Yu Wang<sup>2</sup>, Xiang Wan<sup>1</sup>, Hong Shen<sup>2,†</sup>, Guanbin Li<sup>3,†</sup>, Haofeng Li<sup>1,†</sup>**
 
 <sup>1</sup> Shenzhen Research Institute of Big Data, China  
 <sup>2</sup> InferVision, China  
