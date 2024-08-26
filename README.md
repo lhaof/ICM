@@ -5,14 +5,17 @@ Bronchus segmentation from computed tomography (CT) imaging plays a crucial role
 
 ## Methodology
 Our method leverages intensity and distance metrics to identify and prioritize hard samples—voxels where intensity values cause confusion between bronchus and non-bronchus regions. By integrating these metrics into our loss function, the model can focus on challenging areas, improving the robustness and accuracy of the segmentation.
+
 ![Methods](img/methods.jpg)
 
 ## Results
 Our approach demonstrates superior performance over existing state-of-the-art methods, particularly in handling regions with high intensity confusion. The effectiveness of tackling intensity confusion in improving segmentation results is thoroughly validated through extensive testing.
+
 ![Results](img/results.jpg)
 
 ## Dataset Description
-For the development of automatic bronchus diagnosis, we contribute a new benchmark, BronAtlas, for bronchus classification. BronAtlas has 100 cases of lung CT imaging with voxel-level annotations of 20 segmental bronchi categories (i.e., 10 from the right lung, 8 from the left lung, 1 for the main trachea, and 1 for abnormal bronchus). The "abnormal bronchus segment" denotes the congenital abnormal bronchus. There are 33 abnormal cases in the training and validation set and 12 abnormal cases in the test set. The visualization of the 20 bronchial categories is in Figure~\ref{label}.
+You may directly download this dataset from [OSF](https://osf.io/pskr9/?viewonly=94fa3d87274b4095ac9a4b88cc9a1341.). For the development of automatic bronchus diagnosis, we contribute a new benchmark, BronAtlas, for bronchus classification. BronAtlas has 100 cases of lung CT imaging with voxel-level annotations of 20 segmental bronchi categories (i.e., 10 from the right lung, 8 from the left lung, 1 for the main trachea, and 1 for abnormal bronchus). The "abnormal bronchus segment" denotes the congenital abnormal bronchus. There are 33 abnormal cases in the training and validation set and 12 abnormal cases in the test set. The visualization of the 20 bronchial categories is in the following table.
+
 ![Dataset](img/dataset.jpg)
 
 To use this dataset, please cite the following papers:
