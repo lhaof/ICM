@@ -36,17 +36,22 @@ To use this dataset, please cite the following papers:
 @article{huang2024bcnet,
   title={BCNet: Bronchus Classification via Structure Guided Representation Learning},
   author={Huang, Wenhao and Gong, Haifan and Zhang, Huan and Wang, Yu and Wan, Xiang and Li, Guanbin and Li, Haofeng and Shen, Hong},
-  volume={43},
   journal={IEEE Transactions on Medical Imaging},
-  year={2024}
+  volume={43},
+  pages={1-10},
+  year={2024},
+  publisher={IEEE},
+  doi={10.1109/TMI.2024.3448468}
 }
 
 @inproceedings{gong2024intensity,
-  author    = {Haifan Gong and Wenhao Huang and Huan Zhang and Yu Wang and Xiang Wan and Hong Shen and Guanbin Li and Haofeng Li},
-  title     = {Intensity Confusion Matters: An Intensity-Distance Guided Loss for Bronchus Segmentation},
-  booktitle = {IEEE International Conference on Multimedia and Expo},
-  year      = {2024},
-  location  = {Niagara Falls, Canada}
+  author={Gong, Haifan and Huang, Wenhao and Zhang, Huan and Wang, Yu and Wan, Xiang and Shen, Hong and Li, Guanbin and Li, Haofeng},
+  title={Intensity Confusion Matters: An Intensity-Distance Guided Loss for Bronchus Segmentation},
+  booktitle={Proceedings of the IEEE International Conference on Multimedia and Expo},
+  pages={1-6},
+  year={2024},
+  address={Niagara Falls, Canada},
+  organization={IEEE}
 }
 ```
 ## Open Source Statement
